@@ -1,0 +1,62 @@
+/* 公共样式表 */
+
+/* 字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* 版心 */
+@media screen and (max-width: 1200px) {
+    .w {
+        width: 990px;
+    }
+
+    /* 去除nav栏右部公示图片 */
+    .nav div>img {
+        display: none;
+    }
+
+    /* 顶部导航栏去除地理位置 */
+    .shortcut .fl ul li:last-child {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .w {
+        width: 1190px;
+    }
+}
+
+@media screen and (min-width: 1256px) {
+
+    /* 响应显示右边栏 */
+    .sidebar {
+        background-color: #383838;
+    }
+}
+
+.w {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_ora {
+    color: #f60;
+}

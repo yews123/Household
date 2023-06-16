@@ -1,0 +1,38 @@
+/* 基础样式表 */
+
+* {
+    /* 清楚内外边距 */
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+
+/* 去除横向滚动条 */
+body {
+    overflow-x: hidden;
+}
+
+/* 去掉li 的小圆点 */
+li {
+    list-style: none
+}
+
+/* 去除超链接样式 */
+a {
+    color: #666;
+    text-decoration: none
+}
+
+/* 去除按钮和输入框焦点外边框 */
+button,
+input {
+    border: 0;
+    outline: none;
+}
+
+/* 去除默认样式 */
+em,
+i {
+    font-style: normal
+}
